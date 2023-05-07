@@ -19,7 +19,7 @@ const rules = auth.rewriter({
     featured_products: 444,
     orders: 660,
     users: 600
-})
+});
 
 server.use(rules)
 server.use(auth)
